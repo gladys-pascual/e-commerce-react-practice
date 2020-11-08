@@ -24,6 +24,10 @@ ul {
   font-size: 24px;
 }
 
+.nav-price li {
+  font-weight: 600;
+}
+
 .selected {
   background-color: pink;
   border-radius: 4px;
@@ -104,8 +108,8 @@ ul {
 }
 
 .button {
-  width: 180px;
-  margin: 8px 12px;
+  width: 150px;
+  margin: 8px;
   background-color: pink;
   border: none;
   padding: 12px;
@@ -135,6 +139,8 @@ ul {
 
 .row {
   display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .col {
